@@ -5,7 +5,77 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите число ");
-int x=Convert.ToInt32 ( Console.ReadLine());
-int y=(x % 100) / 10;
-Console.WriteLine($"Второе число равно {y}");
+// Console.WriteLine("Введите число ");
+// int x=Convert.ToInt32 ( Console.ReadLine());
+// int y=(x % 100) / 10;
+// Console.WriteLine($"Второе число равно {y}");
+
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа
+//  или сообщает, что третьей цифры нет.Через строку решать нельзя.
+
+// 645 -> 5
+// 78 -> третьей цифры нет
+// 32679 -> 6
+
+// Console.WriteLine("Введите число ");
+// int a=Convert.ToInt32 ( Console.ReadLine());
+
+// if (a < 100) 
+// {
+//     Console.WriteLine($"Третьей цифры нет ");
+    
+// }
+//     else if (a >= 100 && a < 1000) 
+// {
+//     Int32 x = (a % 10);
+//     Console.WriteLine($"Третья цифра равна {x}");
+// }
+//     else if (a >= 1000 && a < 10000) 
+// {
+//     Int32 x = (a % 100) / 10;
+//     Console.WriteLine($"Третья цифра равна {x}");
+// }
+//     else if (a >= 10000 && a < 100000) 
+// {
+//     Int32 x = (a % 1000) / 100;
+//     Console.WriteLine($"Третья цифра равна {x}");
+// }
+//     else if (a >= 100000 && a < 1000000) 
+// {
+//     Int32 x = (a % 10000) / 1000;
+//     Console.WriteLine($"Третья цифра равна {x}");
+// }
+
+// Задача 15: Напишите программу, которая принимает на вход цифру, 
+// обозначающую день недели, и проверяет, является ли этот день выходным.
+
+// 6 -> да
+// 7 -> да
+// 1 -> нет
+
+// Console.WriteLine("Введите цифру дня недели ");
+// int a=Convert.ToInt32 ( Console.ReadLine());
+// if (a >= 1 && a <= 5) 
+// {
+//     Console.WriteLine($"Будний день");
+// }
+// else 
+// {
+//     Console.WriteLine($"Выходной день");
+// }
+
+// Задача необязательная 2: программисты
+Console.WriteLine("Введите количество программистов в комнате ");
+int a=Convert.ToInt32 ( Console.ReadLine());
+if (a == 1) 
+{
+    Console.WriteLine($"{a} программист");
+}
+else if (a >= 2 && a <= 4)
+{
+    Console.WriteLine($"{a} программиста");
+}
+else 
+{
+    Console.WriteLine($"{a} программистов");
+}
